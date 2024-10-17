@@ -1,9 +1,9 @@
-public class ActivityMD03 {
+public class ActivityMD04 {
     public static void main(String[] args) {
         int rows = 5; // Number of rows in the pyramid
         
         for (int i = 0; i < rows; i++) {
-
+           
             for (int j = 0; j < i; j++) {
                 System.out.print(" ");
             }
@@ -11,7 +11,7 @@ public class ActivityMD03 {
             for (int k = 0; k < (2 * (rows - i) - 1); k++) {
                 System.out.print("*");
             }
-            // Move to the next line after each row
+            
             System.out.println();
         }
     }
